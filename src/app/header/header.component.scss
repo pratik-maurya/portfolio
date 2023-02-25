@@ -14,15 +14,15 @@ body{
     min-height: 100vh;
 }
 .navigation{
-    position: relative;
-    width: 100vw;
+    position: fixed;
+    width: 98vw;
     height: 70px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    bottom: -275px;
+    bottom: 0px;
 }
 .navigation ul{
     display: flex;
@@ -77,7 +77,7 @@ body{
     top: -40px;
     width: 70px;
     height: 70px;
-    background: #29fd53;
+    background: #FFBD39;
     border-radius: 50%;
     border: 6px solid;
     transition: 0.5s;
