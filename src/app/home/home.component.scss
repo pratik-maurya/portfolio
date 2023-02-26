@@ -57,10 +57,29 @@
 
 .profile-img{
     height: 300px;
-    border-radius: 15%;
+    border-radius: 50%;
     border: 2px solid #ffbd39;
 }
 .smallHeading{
     color: white;
     font-size: 35px;
+}
+.per-icon{
+    padding: 10px;
+    border-radius: 8px;
+}
+.per-lab{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+    color: #898989;
+    font-size: 15px;
+}
+.per-lab1{
+    margin-top: 0px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.boxpadding{
+    padding: 6rem;
 }
