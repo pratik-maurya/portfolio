@@ -131,4 +131,14 @@
     background: #ffbd39;
     padding: 10px;
     border-radius: 50%;
+    transition: transform 250ms;
+  }
+  .profile-icon:hover{
+    background: #ffbd39;
+    padding: 10px;
+    border-radius: 50%;
+    transform: translateY(-20px);
+  }
+  .resume-fromToText{
+    color: #ffbd39;
   }
