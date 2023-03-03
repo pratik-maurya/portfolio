@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 0px;
+    margin: 45px 0px 0px 200px;
     font-size: 7vw;
     color: rgba(255, 255, 255, 0.1);
     z-index: -1;
@@ -89,3 +89,46 @@
     padding: 23px;
     border: 2px solid #2d2d2d;
 }
+.cart-style-padding{
+  padding: 25px;
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 500px;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
+
+
+  .skillsPadding{
+    background: #2c2c2c;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 25px;
+  }
+  .profile-icon{
+    background: #ffbd39;
+    padding: 10px;
+    border-radius: 50%;
+  }
