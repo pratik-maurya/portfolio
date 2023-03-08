@@ -102,7 +102,7 @@
     padding: 0 5px;
     display: flex;
     height: 20px;
-    width: 500px;
+    width: 100%;
   }
   
   .progress-value {
@@ -141,4 +141,32 @@
   }
   .resume-fromToText{
     color: #ffbd39;
+  }
+
+  .extra-padding{
+    padding: 5rem;
+  }
+  .about-icon{
+    display: flex; justify-content: space-around; padding-left: 10rem;padding-right: 10rem;
+  }
+  .location-icon{
+    margin-left: 12.2em;
+  }
+  .dbo{
+    margin-left: 5rem;
+  }
+
+  @media screen and (max-width:768px) and (min-width:320px) {
+    .extra-padding{
+      padding: 0;
+    }
+    .about-icon{
+      display: flex; justify-content: space-around; padding-left: 0;padding-right: 0;
+    }
+    .location-icon{
+      margin-left: 0em;
+    }
+    .dbo{
+      margin-left: 0;
+    }
   }
