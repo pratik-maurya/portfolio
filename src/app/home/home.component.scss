@@ -92,7 +92,17 @@
 .cart-style-padding{
   padding: 25px;
 }
-
+.footer-card{
+    margin: 15px;
+    padding: 23px;
+    border-left: 2px solid #2d2d2d;
+}
+// .footer-card:hover{
+//   border-radius: 20px;
+//     margin: 15px;
+//     padding: 23px;
+//     border-right: 2px solid #2d2d2d;
+// }
 .progress {
     background: rgba(255,255,255,0.1);
     justify-content: flex-start;
